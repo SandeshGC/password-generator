@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+body {
+    margin: 150px 125px;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #1F2937;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+#first-line {
+    font-weight: 750;
+    font-size: 55px;
+}
+
+#second-line {
+    font-weight: 750;
+    font-size: 75px;
+    color: #F43F5E;
+}
+
+.desc-text {
+    color: #D5D4D8;
+}
+
+#gen-btn {
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F43F5E;
+    color: white;
+    padding: 10px 20px;
+    margin: 50px 0;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 22px;
+
+}
+
+#bolt-icon {
+    margin: 2px 7px 0 0;
+}
+
+#pw-disp-area {
+    display: grid;
+    margin: 5px 0;
+    grid-template-columns: repeat(2, 500px);
+    gap: 50px 60px;
+
+}
+
+.pwd {
+    padding: 20px;
+    border: 0;
+    border-radius: 6px;
+    margin: 10px 5px;
+    background-color: #273549;
+    color: #FB7185;
+    font-family: inherit;
+    font-size: 22px;
+    text-align: center;
+}
